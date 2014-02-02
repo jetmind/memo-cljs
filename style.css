@@ -20,7 +20,28 @@
   width: 70px;
 }
 
-.deck .row .card.faceup { background-color: white; }
+.deck .row .card.faceup {
+  background-color: white;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 70%;
+}
+.deck .row .card.kind-0 { background-image: url("img/0.png"); }
+.deck .row .card.kind-1 { background-image: url("img/1.png"); }
+.deck .row .card.kind-2 { background-image: url("img/2.png"); }
+.deck .row .card.kind-3 { background-image: url("img/3.png"); }
+.deck .row .card.kind-4 { background-image: url("img/4.png"); }
+.deck .row .card.kind-5 { background-image: url("img/5.png"); }
+.deck .row .card.kind-6 { background-image: url("img/6.png"); }
+.deck .row .card.kind-7 { background-image: url("img/7.png"); }
+.deck .row .card.kind-8 { background-image: url("img/8.png"); }
+.deck .row .card.kind-9 { background-image: url("img/9.png"); }
+.deck .row .card.kind-10 { background-image: url("img/10.png"); }
+.deck .row .card.kind-11 { background-image: url("img/11.png"); }
+.deck .row .card.kind-12 { background-image: url("img/12.png"); }
+.deck .row .card.kind-13 { background-image: url("img/13.png"); }
+.deck .row .card.kind-14 { background-image: url("img/14.png"); }
+.deck .row .card.kind-15 { background-image: url("img/15.png"); }
 
 .deck .row .card.empty {
   border-color: white;

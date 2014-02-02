@@ -57,11 +57,11 @@
   (reify
     om/IRender
     (render [_]
-      (let [class (str "card" (if (:face-up card) " faceup"))
+      (let [class (str "card" (when (:face-up card) (str " faceup kind-" (:kind card))))
             class (str class (when-not (:on-deck card) " empty"))
             props #js {:className class
                        :onClick (when (:on-deck card) #(make-move % card))}]
-      (dom/div props (when (:face-up card) (:kind card)))))))
+      (dom/div props)))))
 
 (defn deck-view [deck owner]
   (reify

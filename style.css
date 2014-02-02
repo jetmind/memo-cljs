@@ -1,0 +1,29 @@
+#game {
+  margin: auto;
+  text-align: center;
+  width: 700px;
+}
+
+.deck .row { clear: both; }
+
+.deck .row .card {
+  background-color: #FFD2AD;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -khtml- border-radius: 10px;
+  cursor: pointer;
+  float: left;
+  height: 80px;
+  margin: 7px;
+  width: 70px;
+}
+
+.deck .row .card.faceup { background-color: white; }
+
+.deck .row .card.empty {
+  border-color: white;
+  background-color: white;
+  cursor: auto;
+}
